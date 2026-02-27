@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#001a0a"/><stop offset="100%" style="stop-color:#0a0a0a"/></linearGradient>
+    <linearGradient id="jersey" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#CC0000"/><stop offset="100%" style="stop-color:#6B0000"/></linearGradient>
+    <radialGradient id="skin" cx="50%" cy="40%" r="60%"><stop offset="0%" style="stop-color:#c89068"/><stop offset="100%" style="stop-color:#a06840"/></radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <!-- Spin effect background -->
+  <circle cx="200" cy="250" r="180" fill="none" stroke="#CC0000" stroke-width="1" opacity="0.08"/>
+  <circle cx="200" cy="250" r="140" fill="none" stroke="#FFD700" stroke-width="0.5" opacity="0.06"/>
+  <circle cx="200" cy="250" r="100" fill="none" stroke="#CC0000" stroke-width="0.5" opacity="0.06"/>
+  <g opacity="0.07" stroke="#CC0000" stroke-width="0.5">
+    <line x1="0" y1="50" x2="400" y2="50"/><line x1="0" y1="100" x2="400" y2="100"/><line x1="0" y1="150" x2="400" y2="150"/><line x1="0" y1="200" x2="400" y2="200"/><line x1="0" y1="250" x2="400" y2="250"/><line x1="0" y1="300" x2="400" y2="300"/><line x1="0" y1="350" x2="400" y2="350"/><line x1="0" y1="400" x2="400" y2="400"/>
+    <line x1="50" y1="0" x2="50" y2="500"/><line x1="100" y1="0" x2="100" y2="500"/><line x1="150" y1="0" x2="150" y2="500"/><line x1="200" y1="0" x2="200" y2="500"/><line x1="250" y1="0" x2="250" y2="500"/><line x1="300" y1="0" x2="300" y2="500"/><line x1="350" y1="0" x2="350" y2="500"/>
+  </g>
+  <ellipse cx="200" cy="490" rx="180" ry="50" fill="#CC0000" opacity="0.2"/>
+  <ellipse cx="200" cy="430" rx="135" ry="118" fill="url(#jersey)"/>
+  <text x="200" y="410" text-anchor="middle" font-family="'Arial Black',sans-serif" font-size="52" fill="#FFD700" opacity="0.9" font-weight="900">8</text>
+  <rect x="184" y="267" width="32" height="50" rx="8" fill="url(#skin)"/>
+  <!-- Chahal - slightly smaller frame, playful face -->
+  <ellipse cx="200" cy="235" rx="66" ry="68" fill="url(#skin)"/>
+  <!-- Hair -->
+  <path d="M134 218 Q139 158 200 154 Q261 158 266 218 Q251 186 200 184 Q149 186 134 218Z" fill="#0a0300"/>
+  <!-- Chahal's notable ears -->
+  <ellipse cx="133" cy="238" rx="12" ry="16" fill="url(#skin)" stroke="#8B5530" stroke-width="0.5"/>
+  <ellipse cx="267" cy="238" rx="12" ry="16" fill="url(#skin)" stroke="#8B5530" stroke-width="0.5"/>
+  <!-- Bright cheerful eyes - Chahal is always smiling -->
+  <ellipse cx="176" cy="232" rx="11" ry="9" fill="#fff"/>
+  <ellipse cx="224" cy="232" rx="11" ry="9" fill="#fff"/>
+  <!-- Puppy eyes -->
+  <ellipse cx="178" cy="233" rx="7" ry="6.5" fill="#2a1500"/>
+  <ellipse cx="226" cy="233" rx="7" ry="6.5" fill="#2a1500"/>
+  <ellipse cx="179" cy="232" rx="3.5" ry="3.5" fill="#000"/>
+  <ellipse cx="227" cy="232" rx="3.5" ry="3.5" fill="#000"/>
+  <ellipse cx="181" cy="230" rx="1.8" ry="1.8" fill="#fff"/>
+  <ellipse cx="229" cy="230" rx="1.8" ry="1.8" fill="#fff"/>
+  <!-- Thin eyebrows -->
+  <path d="M163 217 Q177 213 191 217" stroke="#0a0300" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M209 217 Q223 213 237 217" stroke="#0a0300" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Light stubble -->
+  <path d="M158 262 Q168 295 200 300 Q232 295 242 262 Q228 276 200 279 Q172 276 158 262Z" fill="#3a1800" opacity="0.35"/>
+  <!-- Nose - distinctive -->
+  <path d="M196 240 Q191 255 196 263 Q200 265 204 263 Q209 255 204 240" fill="#a07040" opacity="0.35"/>
+  <!-- BIG CHAHAL SMILE -->
+  <path d="M175 273 Q200 293 225 273" stroke="#8B3010" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Teeth peek -->
+  <path d="M180 277 Q200 288 220 277 Q220 281 200 282 Q180 281 180 277Z" fill="#fff" opacity="0.6"/>
+  <!-- Helmet -->
+  <path d="M134 215 Q140 157 200 153 Q260 157 266 215" fill="#CC0000" opacity="0.9"/>
+  <path d="M134 215 Q126 234 137 248" stroke="#CC0000" stroke-width="7" fill="none"/>
+  <line x1="138" y1="229" x2="162" y2="246" stroke="#FFD700" stroke-width="2.5"/>
+  <line x1="138" y1="242" x2="158" y2="255" stroke="#FFD700" stroke-width="2"/>
+  <!-- Spinning ball with seam -->
+  <circle cx="355" cy="160" r="25" fill="#CC0000" stroke="#8B0000" stroke-width="2"/>
+  <path d="M337 151 Q355 155 373 151" stroke="#FFD700" stroke-width="1.5" fill="none"/>
+  <path d="M337 169 Q355 165 373 169" stroke="#FFD700" stroke-width="1.5" fill="none"/>
+  <!-- Spin lines from ball -->
+  <path d="M355 140 Q340 120 320 130" stroke="#FFD700" stroke-width="1" fill="none" opacity="0.4"/>
+  <path d="M375 165 Q395 150 390 130" stroke="#FFD700" stroke-width="1" fill="none" opacity="0.4"/>
+  <text x="200" y="30" text-anchor="middle" font-size="15" fill="#FFD700" font-family="Arial" font-weight="bold">🌀 SPIN WIZARD 🌀</text>
+</svg>
